@@ -4,7 +4,7 @@ Stops charging you laptop when it reaches 60% charge.
 
 To install, run:
  ```bash
- curl "https://git.io/JWbU9" | sudo tee /etc/systemd/system/chargelimit.service
+ curl -sL "https://git.io/JWbU9" | sudo tee /etc/systemd/system/chargelimit.service
  
 
  sudo systemctl start chargelimit # set limit till next system restart
