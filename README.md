@@ -16,11 +16,11 @@ To install, run:
 
 Keeping your battery's charge between 40% and 60% will improve it's lifespan and capacity.
 
-**Note**: You should disable the limit, and let your battery charge to 100% and then completely discharge once every 3-4 months.
+**Note**: You should disable the limit, and let your battery charge to 100% and then completely discharge once every 4-5 months.
 
 ### How do I change the limit?
 
-Open the `/etc/systemd/system/chargelimit.service` file in a text-editor of your choice, go to line 7, and replace `60` with your preferred value.
+Open the `/etc/systemd/system/chargelimit.service` file in a text-editor of your choice, go to line 8, and replace `60` with your preferred value.
 Use `sudo` to open if it says permission denied.
 
 ### How do I remove the limit?
